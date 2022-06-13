@@ -20,7 +20,7 @@ h2 {
 
 h3 {
     font-size: 1.4rem;
-    color: #11999e;
+    color: #66bfbf;
 }
 
 
@@ -31,27 +31,34 @@ p {
 a {
     color: #11999e;
 }
+
 hr {
     border: 6px dotted lightgray;
     border-style: none none dotted;
     border-width: 6.5px;
     height: 2px;
     width: 6%;
-  }
+}
 
 .top-container {
     background-color: #D4F3EF;
     position: relative;
     padding-top: 100px;
+    margin: 10px;
 }
 
 .pro {
     text-decoration: underline;
 }
 
+.middle-container{
+    overflow: auto;
+}
 .bottom-container {
-    background-color: #A4EBF3;
+    background-color: #AEDBCE;
     font-size: 1rem;
+    padding: 50px 0 30px;
+    overflow: auto;
 }
 
 .second-cloud {
@@ -80,11 +87,13 @@ hr {
     float: right;
     margin-left: 30px;
 }
-.contact-me{
-    margin-bottom: 20px;
+
+.contact-me {
     overflow: auto;
-    
+    padding-bottom: 40px;
+
 }
+
 .first-cloud {
     position: absolute;
     right: 24%;
@@ -98,9 +107,9 @@ hr {
     background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
     background-image: -o-linear-gradient(top, #11cdd4, #11999e);
     background-image: linear-gradient(to bottom, #11cdd4, #11999e);
-    -webkit-border-radius: 6;
-    -moz-border-radius: 6;
-    border-radius: 6px;
+    -webkit-border-radius: 16;
+    -moz-border-radius: 16;
+    border-radius: 16px;
     font-family: Arial;
     color: #ffffff;
     font-size: 16px;
@@ -117,7 +126,21 @@ hr {
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
   }
+.footer-link
+{
+    margin: 10px 10px 20px;
+    text-decoration: none;
+}
+.footer-link:hover{
+    color: #F7F7F7;
+}
+
 #profile-pic {
     width: 20%;
     height: auto;
+}
+
+#copyright{
+    color: #EAF6F6;
+    padding: 20px 0;
 }
