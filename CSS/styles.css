@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 200%;
+}
+
+h1 {
+    font-size: 5.625rem;
+    margin-top: 0;
+    font-family: 'Sacramento', cursive;
+    color: #66bfbf;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #66bfbf;
+}
+
+h3 {
+    font-size: 1.4rem;
+    color: #11999e;
+}
+
+p {
+    font-size: 1rem;
+}
+
+a {
+    color: #11999e;
+}
+
+.top-container {
+    background-color: #CCF2F4;
+    position: relative;
+    padding-top: 100px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.middle-container {
+    background-color: aquamarine;
+}
+
+.bottom-container {
+    background-color: lightcoral;
+}
+
+.second-cloud {
+    position: absolute;
+    bottom: 300px;
+    left: 26%;
+    height: 50px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    overflow: auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.code-pic {
+    width: 35%;
+    float: left;
+    margin-right: 30px;
+}
+
+.basket-pic {
+    width: 35%;
+    float: right;
+    margin-left: 30px;
+}
+
+.first-cloud {
+    position: absolute;
+    right: 24%;
+    top: 50px;
+    height: 50px;
+}
+
+#profile-pic {
+    width: 10%;
+    height: auto;
+}
