@@ -30,6 +30,13 @@ p {
 a {
     color: #11999e;
 }
+hr {
+    border: 6px dotted lightgray;
+    border-style: none none dotted;
+    border-width: 6.5px;
+    height: 2px;
+    width: 6%;
+  }
 
 .top-container {
     background-color: #CCF2F4;
@@ -42,11 +49,10 @@ a {
 }
 
 .middle-container {
-    background-color: aquamarine;
 }
 
 .bottom-container {
-    background-color: lightcoral;
+    background-color: #A4EBF3;
 }
 
 .second-cloud {
@@ -84,6 +90,6 @@ a {
 }
 
 #profile-pic {
-    width: 10%;
+    width: 20%;
     height: auto;
 }
